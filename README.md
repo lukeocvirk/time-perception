@@ -16,3 +16,16 @@ The idea behind this program is a variation on that of Schrödinger's Cat.
  - Once enough data is collected on a set of intervals, we can use the recorded data to get a
    better understanding of human time perception. We will be able to see what % of the time
    the user was accurate on each interval and with each length of time.
+
+## Running the program
+Requires Python 3 with Tkinter (included in standard Python installs).
+
+```
+python3 main.py
+```
+
+1. Enter your chosen interval (in minutes) and press **Start**.
+2. Go about your day. Return whenever you like and press **Alive** or **Dead** to guess.
+3. The true state is revealed after each guess, and the result is appended to `results.csv`.
+4. Press **Guess again** to keep collecting data points without restarting.
+
